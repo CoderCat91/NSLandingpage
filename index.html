@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 class="display-1 anim1">Northern Specimens</h1>
+            <h3 class="display-6 anim1"><i>We are moving to the Morgue!</i></h3>
+            <p class="anim1">We are a UK based Taxidermy company that specialises in Reptile Pet Preservation, Wet Specimen Preservation and Dry Mounting. Sign up now to get exclusive access to our website and upcoming services!</p>
+            <a href="https://mailchi.mp/418d91a3ae7c/untitled-page" class="btn btn-light anim1" role="button"><span>Sign Up!</span></a>
+        </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script>
+  gsap.from('.anim1', {opacity: 0, Duration: 1, y: -50, stagger:0.6});
+  gsap.from('.hero-image', {duration: 0.5, x: 50, opacity: 0});
+    </script>
+</body>
+</html>
