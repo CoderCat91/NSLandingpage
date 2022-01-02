@@ -8,15 +8,10 @@ body, html {
     font-family: 'Luxurious Roman', cursive;
 }
 
-/* The hero image */
+
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1472212712724-0f9997e1fe6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
-
-  /* Set a specific height */
   height: 100%;
-
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
