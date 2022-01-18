@@ -30,6 +30,7 @@ h1 {
     transform: translate(-50%, -50%);
     color: white;
     font-family: 'Libre Baskerville', serif;
+    z-index: 1;
   }
 
   h3 {
@@ -40,6 +41,7 @@ h1 {
     transform: translate(-50%, -50%);
     color: white;
     font-family: 'Libre Baskerville', serif;
+    z-index: 1;
   }
 
   hr {
@@ -57,6 +59,7 @@ p {
     transform: translate(-50%, -50%);
     color: white;
     font-family: 'Luxurious Roman', cursive;
+    z-index: 1;
   }
 
   .btn {
@@ -70,6 +73,7 @@ p {
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 1;
   }
 
   .btn-primary {
@@ -82,4 +86,16 @@ p {
     border-color: white;
     border-width: 4px;
     color: black;
+  }
+
+
+  .hero-image:after {
+    content:'';
+    position:absolute;
+    left:0; top:0;
+    width:100%; height:100%;
+    display:inline-block;
+    background: -moz-linear-gradient(top, rgba(209, 213, 216, 0.5) 0%, rgba(161, 159, 158, 0.5) 100%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,rgba(219, 214, 211, 0.5)), color-stop(0%,rgba(0,47,75,0.5)));  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); 
   }
